@@ -43,7 +43,7 @@ This component will take the JWT token saved to `AsyncStorage` and will put it o
 Make this HTTP request from inside of `componentDidMount` and run it whenever this component is rendered.
 Once you receive back the list of users from the database then display them using a `FlatList` component.
 
-Note about JWTs:
+Note about JWTs
 The API in this project uses JWTs to authenticate its clients.  Upon successful authentication you will receive a token from the server.  This token needs to be included on all subsequent requests to protected routes.  The JWT will look like this:
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
